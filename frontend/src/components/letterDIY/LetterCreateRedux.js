@@ -34,9 +34,7 @@ class LetterCreateRedux extends React.Component {
     handleChange = async (event) => {
         const value = event.target.value;
         const name = event.target.name;
-
-        if(name === "title") this.setState({title: value});
-        if(name === "context") this.setState({context: value});
+        this.setState({ [name]: value});
       }
     render() {
         return (
