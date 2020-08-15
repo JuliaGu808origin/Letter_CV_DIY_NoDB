@@ -44,7 +44,7 @@ class LetterPreviewContextRedux extends React.Component {
                 <div className="ui container" style={{ margin: "10px" }} >
                     <hr />
                 <div className="ui grid">
-                    <div className="seven wide column">© Copyright Julia Gu 2020, All rights reserved</div>
+                    <div className="seven wide column">&copy; Copyright Julia Gu 2020, All rights reserved</div>
                     <div className="nine wide column" style={{ textAlign: "right" }}>
                         Source (public repo): &nbsp;&nbsp; https://github.com/JuliaGu808origin/Letter_CV_DIY_NoDB
                         </div>
